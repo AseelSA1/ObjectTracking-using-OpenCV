@@ -13,11 +13,16 @@ Stable Jupyter Notebook Rendering: Integrated with Matplotlib to display process
 To ensure smooth execution and avoid package conflicts, it is highly recommended to run this project inside a clean virtual environment (like Anaconda).
 
 Install the required libraries using the following command:
+
 '''
 Bash
+
 /# Install the necessary libraries while bypassing corrupted cache files
+
 pip install opencv-python matplotlib numpy --no-cache-dir
+
 '''
+
 🚀 How to Run
  Interactive Object Tracking (Live Video/Camera)
 To ensure the interactive GUI windows perform smoothly without freezing, the tracking logic is separated into an independent script named tracker.py.
@@ -37,11 +42,16 @@ Press Enter or Space on your keyboard to initiate real-time tracking.
 To safely close the tracking window and release the camera, press the ESC key.
 
 📁 Project Structure
+
 Plaintext
+
 opencv-ex/
+
 │
 ├── tracker.py              # Independent script for real-time tracking
+
 └── README.md               # Project documentation (this file)
+
 🧠 Algorithms Used
 
 CSRT Tracker (Discriminative Correlation Filter with Channel and Spatial Reliability): A highly accurate tracking algorithm that excels at handling scale variations, rotations, and sudden movements in live video feeds.
