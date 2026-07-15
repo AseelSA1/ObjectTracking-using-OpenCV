@@ -15,7 +15,7 @@ To ensure smooth execution and avoid package conflicts, it is highly recommended
 Install the required libraries using the following command:
 '''
 Bash
-# Install the necessary libraries while bypassing corrupted cache files
+/# Install the necessary libraries while bypassing corrupted cache files
 pip install opencv-python matplotlib numpy --no-cache-dir
 '''
 🚀 How to Run
@@ -23,9 +23,10 @@ pip install opencv-python matplotlib numpy --no-cache-dir
 To ensure the interactive GUI windows perform smoothly without freezing, the tracking logic is separated into an independent script named tracker.py.
 
 To run the tracking script using your active environment directly from your notebook, execute the following cell:
-
+'''
 Python
 !python tracker.py
+'''
 🎮 Interactive Controls:
 The live camera feed will open and pause on the first frame to let you select an object.
 
